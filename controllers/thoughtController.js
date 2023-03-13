@@ -35,7 +35,7 @@ module.exports = {
               { new: true }
             )
       )
-      .then(() => res.json({ message: 'Thought has been deleted' }))
+      .then(() => res.json({ message: 'Deleted' }))
       .catch((err) => res.status(500).json(err));
   },
   updateThought(req, res) {
